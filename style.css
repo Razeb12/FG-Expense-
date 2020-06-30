@@ -781,15 +781,13 @@ last {
         font-style: normal;
         font-weight: 600;
         font-size: 40px;
-        line-height: 124.8%;
     }
     
 .bud {
     color: white;
     font-family: Lato;
     font-style: normal;
-    font-size: 18px;
-    line-height: 19px;
+    font-size: 15px;
 }
 
     .end {
