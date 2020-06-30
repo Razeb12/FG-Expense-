@@ -91,11 +91,11 @@ nav {
     font-size: 2.2rem;
     color: white;
     margin-left: 15px;
-    font-family: Lato;
-    font-style: normal;
     font-weight: 200;
     font-size: 40px;
     line-height: 124.8%;
+    overflow-x: hidden;
+    top: 5px;
 }
 
 .bud1 {
@@ -326,7 +326,7 @@ nav {
     margin-top: 40px !important;
 }
 
-last {
+.last {
     background-color: #1F2430;
     width: 975px;
     padding: 0px !important;
@@ -604,15 +604,8 @@ last {
         background-image: url(img/Group\ 1394\ \(1\).png);
         width: 650px;
         height: 482px;
-    }
-
-    .row {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
+        background-repeat: no-repeat;
+        
     }
 
     .twitter {
@@ -881,4 +874,41 @@ last {
 
     }
     }
+      
+@media only screen and (max-width: 350px) {
+    .wrap {
+        background-image: url(/img/image\ 1.png);
+        height: 739px;
+        width: 400px;
     
+    .report1 {
+        font-size: large;
+        font-size: 1.2rem;
+        color: #33A97E;
+        margin-left: 30px;
+
+    }
+    .line {
+        width: 230px;
+        height: 2px;
+        margin-left: 20px;
+        background: #33A97E;
+    }
+    .warp {
+        font-size: 2.2rem;
+        color: white;
+        margin-left: 15px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    
+.bud {
+    color: white;
+    font-style: normal;
+    font-size: 15px;
+    text-size-adjust: auto;
+}
+    
+}
